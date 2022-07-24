@@ -84,3 +84,10 @@ i {
   justify-content: flex-start;
   margin-top: 70px;
 } 
+footer {
+    background-color: #2954BE;
+    color: white;
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
