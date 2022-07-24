@@ -24,7 +24,7 @@ h5, h6{
 }
 
 header {
-  background-color: #34362A;
+  background-color: black;
   color: white;
   display: flex;
   padding: 10px;
@@ -85,7 +85,7 @@ i {
   margin-top: 70px;
 } 
 footer {
-    background-color: #2954BE;
+    background-color: black;
     color: white;
     display: flex;
     position: relative;
