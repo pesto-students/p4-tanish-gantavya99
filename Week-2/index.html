@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,58 +10,76 @@
 </head>
 
 <body>
+    <!-- Heading -->
     <header class="heading">
-        <h1>Application form for Mars</h1></header>
-       <div class="container">
+        <h1>Application form for Mars</h1>
+    </header>
+    <div class="container">
         <div class="para-1">
-            <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dignissimos laudantium deserunt? Fuga sint error, cum eveniet nisi, nobis fugit veniam quasi cupiditate quidem explicabo consequatur? Obcaecati quis tempore vel quidem cumque et at?</section>
+            <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dignissimos laudantium deserunt?
+                Fuga sint error, cum eveniet nisi, nobis fugit veniam quasi cupiditate quidem explicabo consequatur?
+                Obcaecati quis tempore vel quidem cumque et at?</section>
         </div>
         <div class="para-2">
-            <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur repellendus hic praesentium nobis culpa illum excepturi delectus soluta! Quos vero eveniet at! Animi odio dolores distinctio, modi veritatis accusantium alias quaerat voluptas excepturi.
-         </section>
+            <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur repellendus hic
+                praesentium nobis culpa illum excepturi delectus soluta! Quos vero eveniet at! Animi odio dolores
+                distinctio, modi veritatis accusantium alias quaerat voluptas excepturi.
+            </section>
         </div>
-    <div class="image">
-        <img src="images/mars.jpg" width="400px">
-    </div>
-   
-    <div class="para-3">
-        <h2>Lorem, ipsum.
-        </h2>
-        <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea reprehenderit ex soluta porro debitis distinctio, mollitia accusantium ab? Vel quos, deserunt expedita, veritatis quas assumenda facilis pariatur, animi voluptatum molestiae numquam. Ad.</section>
-        
-    </div>
-    <div class="para-4">
-        <h2>Lorem, ipsum.</h2>
-        <section>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, corrupti et? Dolorum voluptatum omnis distinctio beatae dolor ipsa quos nesciunt corrupti sapiente facere id eos quaerat quae aliquid, velit deleniti?</section>
-    </div>
-       </div> 
-    <br>
-    <br>
-    <form>
-        <div>
-        <div><label>First Name :<input type="text" </label></div>
-        <br>
-        <div><label>Last Name :<input type="text" </label></div>
-        <br>
-        <div><label>Email :<input type="text" </label></div>
-        <br>
-        <div><label>Phone Number :<input type="text" </label></div>
-        <br>
-        <div><label>Password :<input type="password" </label></div>
-        <br>
-        <div><label>Confirm your password :<input type="text" </label></div>
-       </div>
-        <div>
-            <button>Sign up</button>
-        <label for="country">Country</label>
+        <!-- Code for Image -->
+        <div class="image">
+            <img src="images/mars.jpg" width="400px">
+        </div>
 
-        <select name="country" id="country">
-        <option value="Canada">Canada</option>
-        <option value="saab">India</option>
-        <option value="mercedes">paksitan</option>
-        <option value="audi">bangladesh</option>
-        </select>
+        <div class="para-3">
+            <h2>Lorem, ipsum.
+            </h2>
+            <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea reprehenderit ex soluta porro debitis
+                distinctio, mollitia accusantium ab? Vel quos, deserunt expedita, veritatis quas assumenda facilis
+                pariatur, animi voluptatum molestiae numquam. Ad.</section>
+
         </div>
+        <div class="para-4">
+            <h2>Lorem, ipsum.</h2>
+            <section>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, corrupti et? Dolorum voluptatum
+                omnis distinctio beatae dolor ipsa quos nesciunt corrupti sapiente facere id eos quaerat quae aliquid,
+                velit deleniti?</section>
+        </div>
+    </div>
+    <br>
+    <br>
+   <!-- form starts here -->
+    <form>
+        <p>Title</p>
+        <input type="radio" id="radio-button" name="fav_language" value="HTML">
+        <label for="radio-button">Mr</label>
+        
+        <input type="radio" id="radio-button" name="fav_language" value="HTML">
+        <label for="radio-button">Mrs</label>
+        
+        <input type="radio" id="radio-button" name="fav_language" value="HTML">
+        <label for="radio-button">Miss</label>
+        
+        <input name="name" type="text" class="feedback-input" placeholder="First Name" />
+        <input name="email" type="text" class="feedback-input" placeholder="Last Name" />
+        <input name="name" type="email" class="feedback-input" placeholder="Email" />
+        <input name="email" type="number" class="feedback-input" placeholder="Phone Number" />
+        <input name="name" type="password" class="feedback-input" placeholder="Password" />
+        <input name="email" type="password" class="feedback-input" placeholder="Confirm your password" />
+        <div class="dropdown">
+            <label for="Country">Choose a country:</label>
+            <select name="country" id="country">
+            <option value="Canada">Canada</option>
+             <option value="India">India</option>
+            <option value="Maldives">Maldives</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+            </select>
+            
+        </div> 
+        <br>
+        <!-- Submit button -->
+        <input type="submit" value="SUBMIT" />   
     </form>
 </body>
+
 </html>
