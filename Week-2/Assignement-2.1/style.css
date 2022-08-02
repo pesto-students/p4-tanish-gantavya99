@@ -9,15 +9,21 @@ body{
 }
 .heading{
     text-align: center;
-    padding-top: 30px;
+    padding-top: 1em;
     font-size:4vh;
     color:orange;
      
 }
+h2{
+    color:orange;
+}
 .container{
 display:grid;
-grid-template-columns: repeat(2,4fr);
-grid-gap:40px;
+ /* grid-template-columns: repeat(2,4fr); */
+grid-gap:6vw;
+grid-template-columns: repeat(auto-fill,450px);
+
+
 }
 form { max-width:420px; margin:50px auto; }
 .feedback-input {
@@ -60,7 +66,4 @@ p{
     text-decoration:underline;
     font-size:2vw;
 }
-#country{
-    
-    
-}
+
