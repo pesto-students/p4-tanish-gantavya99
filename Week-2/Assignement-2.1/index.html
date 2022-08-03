@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Heading -->
+    <header class="heading">
+        <h1>Application form for Mars</h1>
+    </header>
+    <div class="container">
+        <div class="para-1">
+            <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dignissimos laudantium deserunt?
+                Fuga sint error, cum eveniet nisi, nobis fugit veniam quasi cupiditate quidem explicabo consequatur?
+                Obcaecati quis tempore vel quidem cumque et at?</section>
+        </div>
+        <div class="para-2">
+            <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto consequuntur repellendus hic
+                praesentium nobis culpa illum excepturi delectus soluta! Quos vero eveniet at! Animi odio dolores
+                distinctio, modi veritatis accusantium alias quaerat voluptas excepturi.
+            </section>
+        </div>
+        <!-- Code for Image -->
+        <div class="image">
+            <img src="images/mars.jpg" width="400px">
+        </div>
+
+        <div class="para-3">
+            <h2>Lorem, ipsum.
+            </h2>
+            <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea reprehenderit ex soluta porro debitis
+                distinctio, mollitia accusantium ab? Vel quos, deserunt expedita, veritatis quas assumenda facilis
+                pariatur, animi voluptatum molestiae numquam. Ad.</section>
+
+        </div>
+        <div class="para-4">
+            <h2>Lorem, ipsum.</h2>
+            <section>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, corrupti et? Dolorum voluptatum
+                omnis distinctio beatae dolor ipsa quos nesciunt corrupti sapiente facere id eos quaerat quae aliquid,
+                velit deleniti?</section>
+        </div>
+    </div>
+    <br>
+    <br>
+   <!-- form starts here -->
+    <form>
+        <p>Title</p>
+        <input type="radio" id="radio-button" name="fav_language" value="HTML">
+        <label for="radio-button">Mr</label>
+        
+        <input type="radio" id="radio-button" name="fav_language" value="HTML">
+        <label for="radio-button">Mrs</label>
+        
+        <input type="radio" id="radio-button" name="fav_language" value="HTML">
+        <label for="radio-button">Miss</label>
+        
+        <input name="name" type="text" class="feedback-input" placeholder="First Name" required />
+        <input name="email" type="text" class="feedback-input" placeholder="Last Name" required/>
+        <input name="name" type="email" class="feedback-input" placeholder="Email" required/>
+        <input name="email" type="number" class="feedback-input" placeholder="Phone Number" required />
+        <input name="name" type="password" class="feedback-input" placeholder="Password" required/>
+        <input name="email" type="password" class="feedback-input" placeholder="Confirm your password" required/>
+        <div class="dropdown">
+            <label for="Country">Choose a country:</label>
+            <select name="country" id="country">
+            <option value="Canada">Canada</option>
+             <option value="India">India</option>
+            <option value="Maldives">Maldives</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+            </select>    
+        </div> 
+        <br>
+        <div class="tacbox">
+            <input id="checkbox" type="checkbox" />
+            <label for="checkbox"> I agree to these <a href="#">Terms and Conditions</a>.</label>
+          </div> 
+        <br>
+        <!-- Submit button -->
+        <input type="submit" value="SUBMIT" />  
+        <br>
+      
+    </form>
+</body>
+
+</html>
